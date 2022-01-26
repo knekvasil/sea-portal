@@ -25,4 +25,10 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
     },
   },
+  settings: {
+    optimizer: {
+      enabled: true,
+      runs: 200,
+    },
+  },
 };

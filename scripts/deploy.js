@@ -9,10 +9,6 @@ async function main() {
   let txn = await nftContract.generateKajNFT();
   await txn.wait();
   console.log("Minted NFT #1");
-
-  txn = await nftContract.generateKajNFT();
-  await txn.wait();
-  console.log("Minted NFT #2");
 }
 
 async function runMain() {

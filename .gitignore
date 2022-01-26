@@ -112,3 +112,7 @@ typechain
 #Hardhat files
 cache
 artifacts
+
+# Python version control
+.python-version
+preview_image.png
